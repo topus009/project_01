@@ -1,0 +1,96 @@
+.header {
+    background: black;
+    margin: 0;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    background: lightgreen;
+    margin: 0;
+}
+
+.body_1 {
+    background: #999;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+/* http://css-snippets.com/
+   simple-horizontal-navigation/ */
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+    float: right;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.1em;
+    }
+    /* Option 1 - Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+    /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+/* CONTENT */
