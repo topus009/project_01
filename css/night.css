@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+#pixie {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+
+}
+
+.bg-img {
+    min-height: 100%;
+    min-width: 1024px;
+    /* Масштабирование*/
+    width: 100%;
+    height: auto;
+    /* Позиционирование */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+div #content {
+    /* Контент над фоном */
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 10pt;
+    line-height: 16pt;
+    -moz-box-shadow: #000 4px 4px 10px;
+    -webkit-box-shadow: #000 4px 4px 10px;
+
+}
+.navbar.navbar-default {
+  z-index: 1;
+}

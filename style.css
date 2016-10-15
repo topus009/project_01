@@ -1,0 +1,78 @@
+﻿.nav.navbar-nav.navbar-right {
+    display: none;
+}
+
+.navbar.navbar-default {
+    /*filter: invert(100%);*/
+}
+
+.mosaicflow__item {
+    padding: 3px;
+}
+
+.mosaicflow__column {
+    float: left;
+}
+
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.mosaicflow__item img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+body {
+    background-color: black;
+}
+
+ ::-webkit-scrollbar {
+    width: 12px;
+}
+
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 2px rgba(221, 221, 221, 0.24);
+      border-radius: 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      -webkit-box-shadow: inset 0 0 2px #ddd;
+  }
+.btn.btn-success {
+  margin-left: 200px;
+  margin-top: 8px;
+}
+#index-contaider-fluid {
+  background-color: transparent;
+
+}
+#index-navbar-navbar-default {
+  border-color: transparent;
+}
+#index-dropdown-toggle,
+#index-dropdown-toggle:focus,
+#index-dropdown-toggle:hover,
+#index-dropdown-toggle li a:hover,
+#index-dropdown-toggle li a:focus  {
+  background-color: transparent;
+}
+#index-navbar-navbar-default .navbar-nav>.open>a,
+#index-navbar-navbar-default .navbar-nav>.open>a:hover,
+#index-navbar-navbar-default .navbar-nav>.open>a:focus {
+background-color: transparent;
+}
+#index-obo-mne a,
+#index-obo-mne a:hover,
+#index-obo-mne a:focus,
+#index-navbar-navbar-default .navbar-nav,
+#index-navbar-navbar-default.navbar-nav>.active>a,
+#index-navbar-navbar-default.navbar-nav>.active>a:focus,
+#index-navbar-navbar-default.navbar-nav>.active>a:hover {
+background-color: transparent;
+}
