@@ -76,3 +76,37 @@ background-color: transparent;
 #index-navbar-navbar-default.navbar-nav>.active>a:hover {
 background-color: transparent;
 }
+#insta-logo, #fb-logo, #vk-logo {
+  position: fixed;
+  right: 30px;
+  opacity: 0.5;
+}
+#vk-logo, #fb-logo {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#insta-logo {
+  height: 32px;
+  bottom: 30px;
+}
+
+#vk-logo {
+  bottom: 110px;
+}
+
+#fb-logo {
+  bottom: 70px;
+}
+
+/*        ЛОГО при НАВЕДЕНИИ   */
+
+#insta-logo:hover,
+#fb-logo:hover,
+#vk-logo:hover {
+  opacity: 1;
+}
+/*  -----------   */
